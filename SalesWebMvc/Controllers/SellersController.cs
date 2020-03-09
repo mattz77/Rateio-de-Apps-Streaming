@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Services;
-using SalesWebMvc.Controllers;
 using SalesWebMvc.Models;
+
 
 namespace SalesWebMvc.Controllers
 {
@@ -13,7 +9,8 @@ namespace SalesWebMvc.Controllers
     {
 
         private readonly SellerService _sellerService;
-        
+
+       
 
         public SellersController (SellerService sellerService)
         {
@@ -21,6 +18,7 @@ namespace SalesWebMvc.Controllers
             _sellerService = sellerService;
         }
 
+        
         public IActionResult Index()
         {
             var list = _sellerService.FindAll();
@@ -41,6 +39,7 @@ namespace SalesWebMvc.Controllers
             _sellerService.Insert(seller);
             return RedirectToAction(nameof(Index));
         }
+
 
     }
 }
