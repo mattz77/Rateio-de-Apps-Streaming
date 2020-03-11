@@ -116,10 +116,9 @@ namespace SalesWebMvc.Controllers
 
             List<Department> departments =await  _departmentService.FindAllAsync();
             SellerFormViewModel viewModel = new SellerFormViewModel { Seller = obj, Departments = departments };
-            return View(viewModel);
-
-
+            return View(viewModel); 
         }
+       //mudança async metodo post
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, Seller seller)
