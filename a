@@ -1,0 +1,26 @@
+[33m3e74d14[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Preparando a navegação de telas de pesquisa
+[33mfb1e461[m[33m ([m[1;31morigin/master[m[33m)[m Implementando Busca Simples
+[33m2e18977[m Tratamento de exceção para Delete(integrirade referencial)
+[33m4e0a69b[m Operações Assincronas usando task(async,await)
+[33m0b5203c[m Validation
+[33m1c5f0b8[m Localização e Formatação de números e datas
+[33m20f09c1[m Retornando Pagina de Erro Personalizada
+[33mc472e72[m Editar vendedor e exceções de serviço personalizadas
+[33m4ce5f6d[m Tela de detalhes e eager loading
+[33m2a93d3c[m Deletando Vendedor(com post)
+[33mb5e876e[m Deletar Vendedor
+[33m1afe176[m SellerFormViewModel e componente select para departamento
+[33m288d415[m Chave Estrangeira Não Nula
+[33mefd7fe6[m Tela Simples de Cadastro
+[33m6bb4885[m SeedingService e FindAll Async
+[33mef8b7c6[m Sellers Controller
+[33m8789894[m Seeding Service
+[33m3ac0d03[m Outras entidades e segunda migracao
+[33meadac35[m Mudando tema bootstrap
+[33m843d6fb[m AdaptacaoSQL-Primeira Migration
+[33mfed0d3d[m CRUD Scaffolding
+[33m0ad3820[m Deletando-ControllerEView
+[33md53f942[m Primeiro teste MVC - Department
+[33m03e0787[m Primeiro Controller e testes nas paginas Razor
+[33m29ef4c6[m Project created
+[33mef142c7[m Initial commit
